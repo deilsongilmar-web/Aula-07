@@ -1,45 +1,103 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<s!DOCTYPE html>
+    <html lang="pt-BR">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Descrição da página em ate 160 caracteres" />
-    <meta name="keywords" content="palavra1, palavra2, palavra3">
-    <meta name="author" content="LuanPDD">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- 
-    <meta property="og:title" content="Fundamentos HTML" />
-    <meta property="og:description" content="Descrição da página em ate 160 caracteres" />
-    <meta property="og:url" content="https://cheatsheets.zip/index" />
-    <meta property="og:image" content="https://xxx.com/image.jpg" />
-    <link rel="stylesheet" href="style.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="description" content="Descrição da página em ate 160 caracteres" />
+        <meta name="keywords" content="palavra1, palavra2, palavra3">
+        <meta name="author" content="LuanPDD">
 
 
-    <title>Aula 04</title>
-    
-</head>
-<body>
-    
-    <header>
-        <aside>
-            <nav>
-              
-                
-            </nav>
-        </aside>
-    </header>
+        <meta property="og:title" content="Fundamentos HTML" />
+        <meta property="og:description" content="Descrição da página em ate 160 caracteres" />
+        <meta property="og:url" content="https://cheatsheets.zip/index" />
+        <meta property="og:image" content="https://xxx.com/image.jpg" />
+        <link rel="stylesheet" href="style.css">
 
-    <main>
-        <section>
-           
-             <a href="estruturas.html">estruturas</a>
-        </section>
-    </main>
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+        <link rel="stylesheet" href="base/main.css">
 
-    <footer>
-       
-    </footer>
-</body>
-</html>
+        <title>Aula 07</title>
+
+    </head>
+
+    <body>
+
+        <header class="header">
+
+            <div class="header-container">
+                <div class="logo">
+                    <a href="logo-link">
+                        <i class="ph ph-cube"></i>
+                        <span>DevCorp</span>
+                    </a>
+
+                </div>
+
+
+                <!--Menu Principal-->
+
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">
+                                <i class="ph ph-house"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        </ul>
+
+                        <!--Produtos com sub menu-->
+                        <ul>
+                            <li class="nav-item has-submenu">
+                                <a href="#" class="nav-link">
+                                    <i class="ph ph-package"></i>
+                                    <span>Produtos</span>
+                                    <i class="ph ph-caret-down submenu-arrow"></i>
+                                </a>
+                            </li>
+
+                        <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="#" class="submenu-link">
+                                <i class="ph ph-desktop"></i>
+                                <span>software Desktop</span>
+                            </a>
+                        </ul>
+
+                        <ul>
+                    
+                        <li>
+                            <a href="#" class="submenu-link">
+                                <i class="ph ph-devace-mobile"></i>
+                                <span>App Mobile</span> 
+
+                            </a>
+                        </li>
+                        </ul>
+
+
+
+                </nav>
+
+
+
+        </header>
+
+        <main>
+            <section>
+
+
+            </section>
+        </main>
+
+        <footer>
+
+        </footer>
+    </body>
+
+    </html>
