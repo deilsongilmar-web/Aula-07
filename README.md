@@ -4,7 +4,7 @@
 Bem-vindo(a) ao repositório da **Aula 07**!
 
 Este repositório contém os materiais, códigos e exercícios desenvolvidos durante a sétima aula do nosso curso/treinamento de [ Full Stack  na Escola Digitall Colege , ex: Desenvolvimento Web, JavaScript, Python, etc.]. O foco desta aula é em **[Criação de site com menu e sub menus de serviços.]**.
-
+<img width="1500" height="1001" alt="Image" src="https://github.com/user-attachments/assets/996804ea-b2c2-46b8-94d8-7fb9b49b2cf5" />
 ## ✨ Tópicos Abordados
 
 Nesta aula, exploramos os seguintes conceitos e ferramentas:
